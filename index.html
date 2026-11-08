@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ibnu Rijal Al Qodri, S.Pd. | CV Interaktif</title>
+  <meta name="description" content="CV interaktif Ibnu Rijal Al Qodri, S.Pd.: lulusan Pendidikan Matematika, pengembang media pembelajaran interaktif dan web, instruktur pelatihan coding.">
+  <meta name="theme-color" content="#fdfbf4">
+
+  <!-- Preview saat dibagikan di WhatsApp/LinkedIn. Ganti og:image dengan gambar 1200x630 px bila sudah ada. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ibnu Rijal Al Qodri, S.Pd. | CV Interaktif">
+  <meta property="og:description" content="Mengubah matematika jadi interaktif, dari e-modul sampai web.">
+  <meta property="og:image" content="assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="alternate icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    /* Terapkan tema sebelum halaman tampil agar tidak berkedip */
+    try {
+      var t = localStorage.getItem('theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Lewati ke konten</a>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" aria-label="Al Qodri, kembali ke atas"><img src="assets/logo.svg" width="36" height="36" alt=""><span>Interactive Resume</span></a>
+    <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks" aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#topik">Topik</a>
+      <a href="#pelatihan">Pemateri</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#skill">Skill</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main id="main"></main>
+
+  <noscript>
+    <p style="padding:24px;font-family:sans-serif">Halaman ini membutuhkan JavaScript. Silakan aktifkan JavaScript pada browser Anda.</p>
+  </noscript>
+
+  <footer class="footer" id="footer"></footer>
+
+  <!-- Tombol sticky -->
+  <div class="fabs" id="fabs">
+    <button class="fab fab--top" id="topBtn" type="button" aria-label="Kembali ke atas" title="Kembali ke atas"></button>
+    <div class="fab-wrap">
+      <div class="menu" id="dlMenu" role="menu" aria-label="Pilihan unduh CV" hidden>
+        <button class="menu__item" role="menuitem" data-dl="creative" type="button">
+          <strong>CV Kreatif (PDF)</strong>
+          <span>Tampilan desain, cocok untuk dilihat langsung</span>
+        </button>
+        <button class="menu__item" role="menuitem" data-dl="ats" type="button">
+          <strong>CV ATS (PDF)</strong>
+          <span>Format polos, untuk melamar kerja</span>
+        </button>
+      </div>
+      <button class="fab" id="dlBtn" type="button" aria-haspopup="menu" aria-expanded="false" aria-label="Unduh CV" title="Unduh CV"></button>
+    </div>
+    <button class="fab" id="themeBtn" type="button" aria-label="Ganti mode gelap atau terang" title="Mode gelap/terang"></button>
+  </div>
+
+  <!-- Cetakan CV Kreatif (disembunyikan, hanya dipakai untuk membuat PDF) -->
+  <div id="print-root" aria-hidden="true"></div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/pdf.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

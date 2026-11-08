@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512" role="img" aria-labelledby="t">
+  <title id="t">Logo Al Qodri (AQ)</title>
+  <rect width="128" height="128" rx="30" fill="#1b2a4e"/>
+  <g fill="none" stroke="#fdfbf4" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 95 L38 33 L58 95"/>
+    <path d="M26 76 H50"/>
+    <ellipse cx="88" cy="64" rx="20" ry="31"/>
+  </g>
+  <path d="M93 77 L113 104" fill="none" stroke="#ffe36e" stroke-width="11" stroke-linecap="round"/>
+</svg>
