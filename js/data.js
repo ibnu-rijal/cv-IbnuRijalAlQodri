@@ -62,7 +62,8 @@ window.CV_DATA = {
     { date: "Mei 2024", title: "Rekrutmen Aslab 2024", topic: "Coding: Web CV", participants: "28 calon aslab" },
     { date: "April 2025", title: "In House Training Aslab", topic: "Coding: Web Interaktif", participants: "13 aslab" },
     { date: "Maret 2026", title: "Rekrutmen Aslab 2026", topic: "Coding: Web Dasar", participants: "22 calon aslab" },
-    { date: "September 2026", title: "In House Training Aslab", topic: "Python Dasar", participants: "13 aslab" }
+    { date: "September 2026", title: "In House Training Aslab", topic: "Python Dasar", participants: "13 aslab" },
+    { date: "November 2026", title: "Workshop", topic: "DIGIFOOD: Pengembangan Website Edukasi", participants: "30 siswa" }
   ],
 
   /* Pengalaman kerja dan organisasi (urut dari yang berakhir paling baru) */
